@@ -1,0 +1,6 @@
+{
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.project.referencedLibraries": [
+    "build/com.example.example-ktor-0.0.1/lib/*.jar"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "serve",
+      "type": "shell",
+      "command": "make serve",
+      "isBackground": true,
+      "problemMatcher": [
+        {
+          "background": {
+            "activeOnStart": true,
+            "beginsPattern": "^gradle run$",
+            "endsPattern": "Application started",
+          }
+        }
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "build",
+      "type": "shell",
+      "command": "make build"
+    },
+    {
+      "label": "test",
+      "type": "shell",
+      "command": "make test"
+    }
+  ]
+}
